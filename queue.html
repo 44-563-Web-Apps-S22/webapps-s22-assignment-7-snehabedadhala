@@ -39,7 +39,7 @@
         <div class="queue">row item 3</div>
     </div>
 
-    <p> Press the button to create an new element of type div and then add it to the container.</p>
+    <p> Enter any value and click on the button to add it to container.</p>
     <br>
     <input type="text" id="form_text" name="form_text">
     <button onclick="makeNewDiv()"> Add value </button>
@@ -57,7 +57,7 @@
         element.setAttribute('class', 'queue');
         element.style.color = "orange"
 
-        /* add it to the container */
+        
         let container = document.getElementById('target')
         container.insertBefore(element, container.firstChild);
     }
